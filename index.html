@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leanplum Web App</title>
+  <script src="https://cdn.leanplum.com/leanplum-latest.js"></script> 
+  <script src="script.js"></script> 
+</head>
+<body>
+  <h1>Leanplum Web App</h1>
+  <button id="eventBtn">Track Event</button>
+  <button id="attrBtn">Set User Attribute</button>
+
+  <script>
+    // Initialize Leanplum
+    leanplum.setAppIdForProductionMode('YOUR_APP_ID', 'YOUR_PRODUCTION_KEY'); 
+
+    // Start Leanplum when the page loads
+    leanplum.start(); 
+  </script>
+</body>
+</html>

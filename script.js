@@ -9,15 +9,19 @@
  });
 if (typeof Leanplum !== 'undefined') {
   // Track Event
-  document.getElementById('eventBtn').addEventListener('click', function() {
-    Leanplum.track('Button Clicked');
+  document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('eventBtn').addEventListener('click', function() {
+        Leanplum.track('Button Clicked');
+    });
   });
 
   // Set User Attribute
-  document.getElementById('attrBtn').addEventListener('click', function() {
-    Leanplum.setUserAttributes({
-      'username': 'testuser',
-      'age': 30 
+  document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('attrBtn').addEventListener('click', function() {
+      Leanplum.setUserAttributes({
+        'username': 'testuser',
+        'age': 30 
+      });
     });
   });
 } else {

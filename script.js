@@ -11,7 +11,7 @@ if (typeof Leanplum !== 'undefined') {
   // Track Event
   document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('eventBtn').addEventListener('click', function() {
-        Leanplum.track('Button Clicked');
+        Leanplum.track('Button:Clicked');
     });
   });
 

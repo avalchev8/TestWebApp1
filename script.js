@@ -19,6 +19,8 @@ if (typeof Leanplum !== 'undefined') {
 
   document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('getInboxMessagesBtn').addEventListener('click', function() {
+      console.log('Get Inbox Messages Button Clicked');
+      // Get Inbox Messages
       console.log(clevertap.getAllInboxMessages() );
     });
   }

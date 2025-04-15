@@ -19,7 +19,7 @@ if (typeof Leanplum !== 'undefined') {
 
   document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('getInboxMessagesBtn').addEventListener('click', function() {
-      clevertap.getAllInboxMessages() 
+      console.log(clevertap.getAllInboxMessages() );
     });
   }
   );

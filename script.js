@@ -7,6 +7,7 @@
   console.log('Success: ' + success);
   console.log('Variables', Leanplum.getVariables());
   clevertap.setLogLevel(3);
+  console.log(typeof clevertap);
  });
 if (typeof Leanplum !== 'undefined') {
   // Track Event

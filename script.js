@@ -1,6 +1,6 @@
 // Ensure leanplum is defined
  // Initialize Leanplum
- Leanplum.setAppIdForProductionMode('app_y2XiC7zWyC7Q89pm6Rx07YI6sz5N91WmkQeTJBBqDjI', 'prod_lIS9NZFo0N6rMhi0laGeiLQnV2i8gbekmBmY6gPN0o4'); 
+ Leanplum.setAppIdForProductionMode('app_K7F1SOXrxAx7DqUTh4PBkE4WiwQxUKDT54KdzQVC0uY', 'prod_6wqZ4KgWlhUDNVI3kzLAZHPoiYBRvx7NRwRiqWZTQSg'); 
 
  // Start Leanplum when the page loads
  Leanplum.start(function(success) {

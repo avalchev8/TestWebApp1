@@ -15,6 +15,14 @@ if (typeof Leanplum !== 'undefined') {
     });
   });
 
+  document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('getInboxMessagesBtn').addEventListener('click', function() {
+      clevertap.getAllInboxMessages() 
+    });
+  }
+  );
+  
+
   // Set User Attribute
   document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('attrBtn').addEventListener('click', function() {

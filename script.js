@@ -6,7 +6,7 @@
  Leanplum.start(function(success) {
   console.log('Success: ' + success);
   console.log('Variables', Leanplum.getVariables());
-  clevertap.setLogLevel(LOG_LEVEL);
+  clevertap.setLogLevel(3);
  });
 if (typeof Leanplum !== 'undefined') {
   // Track Event
